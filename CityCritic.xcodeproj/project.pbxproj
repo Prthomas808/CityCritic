@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		1D2149A02B580B1500170E87 /* CityCriticApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D21499F2B580B1500170E87 /* CityCriticApp.swift */; };
-		1D2149A22B580B1500170E87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2149A12B580B1500170E87 /* ContentView.swift */; };
+		1D2149A22B580B1500170E87 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2149A12B580B1500170E87 /* HomeView.swift */; };
 		1D2149A42B580B1900170E87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D2149A32B580B1900170E87 /* Assets.xcassets */; };
 		1D2149A72B580B1900170E87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D2149A62B580B1900170E87 /* Preview Assets.xcassets */; };
+		1D2149AF2B58161100170E87 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2149AE2B58161100170E87 /* CategoriesView.swift */; };
+		1D2149B12B58163100170E87 /* ThingsToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2149B02B58163100170E87 /* ThingsToDoView.swift */; };
+		1D2149B32B58164800170E87 /* PlacesToEatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2149B22B58164800170E87 /* PlacesToEatView.swift */; };
+		1D2149B52B58166000170E87 /* SportEventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2149B42B58165F00170E87 /* SportEventsView.swift */; };
+		1D2149BA2B5816BE00170E87 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2149B92B5816BE00170E87 /* Categories.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D21499C2B580B1500170E87 /* CityCritic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityCritic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D21499F2B580B1500170E87 /* CityCriticApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCriticApp.swift; sourceTree = "<group>"; };
-		1D2149A12B580B1500170E87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1D2149A12B580B1500170E87 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1D2149A32B580B1900170E87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D2149A62B580B1900170E87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D2149AE2B58161100170E87 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		1D2149B02B58163100170E87 /* ThingsToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingsToDoView.swift; sourceTree = "<group>"; };
+		1D2149B22B58164800170E87 /* PlacesToEatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesToEatView.swift; sourceTree = "<group>"; };
+		1D2149B42B58165F00170E87 /* SportEventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportEventsView.swift; sourceTree = "<group>"; };
+		1D2149B92B5816BE00170E87 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +61,9 @@
 		1D21499E2B580B1500170E87 /* CityCritic */ = {
 			isa = PBXGroup;
 			children = (
-				1D21499F2B580B1500170E87 /* CityCriticApp.swift */,
-				1D2149A12B580B1500170E87 /* ContentView.swift */,
-				1D2149A32B580B1900170E87 /* Assets.xcassets */,
+				1D2149B72B5816A600170E87 /* Supporting */,
+				1D2149B82B5816B100170E87 /* Models */,
+				1D2149AD2B58160200170E87 /* Views */,
 				1D2149A52B580B1900170E87 /* Preview Content */,
 			);
 			path = CityCritic;
@@ -65,6 +75,43 @@
 				1D2149A62B580B1900170E87 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1D2149AD2B58160200170E87 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D2149B62B58166C00170E87 /* Home Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1D2149B62B58166C00170E87 /* Home Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D2149A12B580B1500170E87 /* HomeView.swift */,
+				1D2149AE2B58161100170E87 /* CategoriesView.swift */,
+				1D2149B02B58163100170E87 /* ThingsToDoView.swift */,
+				1D2149B22B58164800170E87 /* PlacesToEatView.swift */,
+				1D2149B42B58165F00170E87 /* SportEventsView.swift */,
+			);
+			path = "Home Views";
+			sourceTree = "<group>";
+		};
+		1D2149B72B5816A600170E87 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				1D21499F2B580B1500170E87 /* CityCriticApp.swift */,
+				1D2149A32B580B1900170E87 /* Assets.xcassets */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		1D2149B82B5816B100170E87 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1D2149B92B5816BE00170E87 /* Categories.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +184,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D2149A22B580B1500170E87 /* ContentView.swift in Sources */,
+				1D2149B52B58166000170E87 /* SportEventsView.swift in Sources */,
+				1D2149BA2B5816BE00170E87 /* Categories.swift in Sources */,
+				1D2149B32B58164800170E87 /* PlacesToEatView.swift in Sources */,
+				1D2149A22B580B1500170E87 /* HomeView.swift in Sources */,
+				1D2149B12B58163100170E87 /* ThingsToDoView.swift in Sources */,
 				1D2149A02B580B1500170E87 /* CityCriticApp.swift in Sources */,
+				1D2149AF2B58161100170E87 /* CategoriesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
